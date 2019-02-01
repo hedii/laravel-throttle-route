@@ -1,0 +1,41 @@
+{
+    "name": "hedii/laravel-throttle-route",
+    "description": "A Laravel package to throttle requests based on route name",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hedii",
+            "email": "contact@hedichaibi.com"
+        }
+    ],
+    "keywords": [
+        "hedii",
+        "laravel-throttle-route",
+        "laravel",
+        "throttle",
+        "throttler",
+        "rate-limiter",
+        "rate-limit"
+    ],
+    "require": {
+        "laravel/framework": "^5.7"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hedii\\LaravelThrottleRoute\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hedii\\LaravelThrottleRoute\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
